@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de restaurant</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-utensils"></i> food </a>
+    
+    <nav class="navbar">
+        <a href="#home">Accueil</a>
+        <a href="#about">A Propos</a>
+        <a href="#popular">populaire</a>
+        <a href="#menu">menu</a>
+        <a href="#order">Commandes</a>
+        <a href="#blogs">blogs</a>
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <div id="cart-btn" class="fas fa-shopping-cart"></div>
+        <div id="login-btn" class="fas fa-user"></div>
+    </div>
+    
+</header>
+
+<!-- header section ends  -->
+
+<!-- search-form  -->
+
+<section class="search-form-container">
+
+    <form action="">
+        <input type="search" name="" placeholder="rechercher ici..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+</section>
+
+<!-- shopping-cart section  -->
+
+<section class="shopping-cart-container">
+
+    <div class="products-container">
+
+        <h3 class="title">Vos produits</h3>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="image/eru-Photoroom.png-Photoroom.png" alt="">
+                <div class="content">
+                    <h3>eru</h3>
+                    <span> quantité : </span>
+                    <input type="number" name="" value="1" id="">
+                    <br>
+                    <span> price : </span>
+                    <span class="price"> 3 500 F</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="image/menu-2.png" alt="">
+                <div class="content">
+                    <h3> pizza </h3>
+                    <span> quantité : </span>
+                    <input type="number" name="" value="1" id="">
+                    <br>
+                    <span> price : </span>
+                    <span class="price"> 7 500 F </span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="image/koki-removebg-preview.png" alt="">
+                <div class="content">
+                    <h3>Koki chaud</h3>
+                    <span> quantity : </span>
+                    <input type="number" name="" value="1" id="">
+                    <br>
+                    <span> price : </span>
+                    <span class="price"> 4 000 F </span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="image/delicieuse-assiette-poulet-Photoroom.png-Photoroom.png" alt="">
+                <div class="content">
+                    <h3>Poulet</h3>
+                    <span> quantité : </span>
+                    <input type="number" name="" value="1" id="">
+                    <br>
+                    <span> price : </span>
+                    <span class="price"> 6 500 F </span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="image/ndole-removebg-preview.png" alt="">
+                <div class="content">
+                    <h3>ndole</h3>
+                    <span> quantité : </span>
+                    <input type="number" name="" value="1" id="">
+                    <br>
+                    <span> price : </span>
+                    <span class="price"> 5 000 F </span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="cart-total">
+
+        <h3 class="title"> prix total </h3>
+
+        <div class="box">
+
+            <h3 class="subtotal"> subtotal : <span>14 000 F</span> </h3>
+            <h3 class="total"> total : <span>15 000f</span> </h3>
+
+            <a href="#" class="btn">proceder au paiement</a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- login-form  -->
+
+<div class="login-form-container">
+
+    <form action="">
+        <h3>Connexion</h3>
+        <input type="email" name="" placeholder="entrez votre email" id="" class="box">
+        <input type="password" name="" placeholder="entrez votre mot de passe" id="" class="box">
+        <div class="remember">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">souviens toi de moi</label>
+        </div>
+        <input type="submit" value="login now" class="btn">
+        <p>mot de passe oublié? <a href="#">cliquez ici</a></p>
+        <p>vous n'avez pas de compte? <a href="#">créez un compte</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <span>Bienvenue aux gourmands</span>
+        <h3>differents plats pour differents gouts😋</h3>
+        <p>Venez decouvrir nos specialites local et partout d'ailleurs pour une experience culinaire sans appel</p>
+        <a href="#" class="btn">Commander maintenant</a>
+    </div>
+
+    <div class="image">
+        <img src="image/plat-viande.avif" alt="" class="home-img">
+      <!--  <img src="image/home-parallax-img.png" alt="" class="home-parallax-img"> -->
+    </div>
+
+</section>
+
+<!-- home section ends  -->
+
+<!-- category section starts  -->
+
+<section class="category">
+
+    <a href="#" class="box">
+        <img src="image/eru-Photoroom.png-Photoroom.png" alt="">
+        <h3>Eru</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img src="image/delicieuse-assiette-poulet-Photoroom.png-Photoroom.png" alt="">
+        <h3>Poulet</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img src="image/koki-removebg-preview.png" alt="">
+        <h3>Koki chaud</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img src="image/cat-4.png" alt="">
+        <h3>Poulet Panné</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img src="image/ndole-removebg-preview.png" alt="">
+        <h3>Ndole</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img src="image/cat-6.png" alt="">
+        <h3>café</h3>
+    </a>
+
+</section>
+
+<!-- category section ends -->
+
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <div class="image">
+        <img src="image/delicieuse-assiette-poulet-Photoroom.png-Photoroom.png" alt="">
+    </div>
+
+    <div class="content">
+        <span>Pourquoi nous choisir?</span>
+        <h3 class="title">Satisfait ou rembourser!!!</h3>
+        <p>Notre mission est de vous servir des repas autant savoureux que sain, alors n'hesitez plus et commandez</p>
+        <a href="#" class="btn">Voir plus</a>
+        <div class="icons-container">
+            <div class="icons">
+                <img src="image/serv-1.png" alt="">
+                <h3>livraison rapide</h3>
+            </div>  
+            <div class="icons">
+                <img src="image/serv-2.png" alt="">
+                <h3>nourriture chaude</h3>
+            </div>   
+            <div class="icons">
+                <img src="image/serv-3.png" alt="">
+                <h3>Qualité prenium</h3>
+            </div>  
+            <div class="icons">
+                <img src="image/serv-4.png" alt="">
+                <h3>24/7 disponible</h3>
+            </div>           
+        </div>
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- popular section starts  -->
+
+<section class="popular" id="popular">
+
+    <div class="heading">
+        <span>Plats Populaire</span>
+        <h3>nos menus speciaux</h3>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="image">
+                <img src="image/ndole-removebg-preview.png" alt="">
+            </div>
+            <div class="content">
+                <h3>ndole sentimentale</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (80) </span>
+                </div>
+                <div class="price">8 000 F <span>10 000 F</span></div>
+                <a href="#" class="btn">Ajouter au panier</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="image">
+                <img src="image/koki-removebg-preview.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Koki du desert</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (50) </span>
+                </div>
+                <div class="price">3 500 F <span>5 000 F</span></div>
+                <a href="#" class="btn">Ajouter au panier</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="image">
+                <img src="image/food-3.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Pizza</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (60) </span>
+                </div>
+                <div class="price">7 000 F <span>8 000 F</span></div>
+                <a href="#" class="btn">Ajouter au panier</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="image">
+                <img src="image/eru-Photoroom.png-Photoroom.png" alt="">
+            </div>
+            <div class="content">
+                <h3> Eru and water fufu </h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (150) </span>
+                </div>
+                <div class="price">4 000 F <span> 5 000 F</span></div>
+                <a href="#" class="btn">Ajouter au panier</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="image">
+                <img src="image/delicieuse-assiette-poulet-Photoroom.png-Photoroom.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Poulet </h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (100) </span>
+                </div>
+                <div class="price">9 000 F <span>10 000 F</span></div>
+                <a href="#" class="btn">Ajouter au panier</a>
+            </div>
+       <!-- </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="image">
+                <img src="image/food-6.png" alt="">
+            </div>
+            <div class="content">
+                <h3>delicious food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (50) </span>
+                </div>
+                <div class="price">$40.00 <span>$50.00</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="image">
+                <img src="image/food-7.png" alt="">
+            </div>
+            <div class="content">
+                <h3>delicious food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (50) </span>
+                </div>
+                <div class="price">$40.00 <span>$50.00</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="image">
+                <img src="image/food-8.png" alt="">
+            </div>
+            <div class="content">
+                <h3>delicious food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (50) </span>
+                </div>
+                <div class="price">$40.00 <span>$50.00</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            --> 
+        </div>
+   
+
+    </div>
+
+</section>
+
+<!-- popular section ends -->
+
+<!-- banner section starts  -->
+
+<section class="banner">
+
+    <div class="row-banner">
+        <div class="content">
+            <span>Nouveautés !!!</span>
+            <h3>Double cheese Burger <br>
+                avec du cococola et des frites</h3>
+            <p>N'attendez plus !</p>
+            <a href="#" class="btn">Commander maintenant</a>
+        </div>
+    </div>
+
+    <div class="grid-banner">
+        <div class="grid">
+            <img src="image/banner-1.png" alt="">
+            <div class="content">
+                <span>Offre speciale</span>
+                <h3>Soirée grillades chaque weekend</h3>
+                <a href="#" class="btn">Commander maintenant</a>
+            </div>
+        </div>
+        <div class="grid">
+            <img src="image/banner-2.png" alt="">
+            <div class="content center">
+                <span>Offre speciale </span>
+                <h3>des portions de frites geantes</h3>
+                <a href="#" class="btn">Commander maintenant</a>
+            </div>
+        </div>
+        <div class="grid">        
+            <img src="image/banner-3.png" alt="">
+            <div class="content">
+                <span>Offre limité</span>
+                <h3>Sushi chaque samedi pendant tout le mois de mai</h3>
+                <a href="#" class="btn">Commander maintenant</a>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- banner section ends -->
+
+<!-- menu section starts  -->
+
+<section class="menu" id="menu">
+
+    <div class="heading">
+        <span>Notre menu</span>
+        <h3>Nos spécialités</h3>
+    </div>
+
+    <div class="box-container">
+
+        <a href="#" class="box">
+            <img src="image/delicieuse-assiette-poulet-Photoroom.png-Photoroom.png" alt="">
+            <div class="content">
+                <h3>Poulet</h3>
+                <div class="price">8 000 F</div>
+            </div>
+        </a>
+
+        <a href="#" class="box">
+            <img src="image/koki-removebg-preview.png" alt="">
+            <div class="content">
+                <h3>Koki chaud</h3>
+                <div class="price"> 4 000 F</div>
+            </div>
+        </a>
+
+        <a href="#" class="box">
+            <img src="image/eru-Photoroom.png-Photoroom.png" alt="">
+            <div class="content">
+                <h3>Eru</h3>
+                <div class="price"> 3 500 F</div>
+            </div>
+        </a>
+
+        <a href="#" class="box">
+            <img src="image/ndole-removebg-preview.png" alt="">
+            <div class="content">
+                <h3>ndole </h3>
+                <div class="price"> 5 000 F</div>
+            </div>
+        </a>
+        <!--
+        <a href="#" class="box">
+            <img src="image/menu-5.png" alt="">
+            <div class="content">
+                <h3>delicious food</h3>
+                <div class="price">$40.00</div>
+            </div>
+        </a>
+        -->
+        <a href="#" class="box">
+            <img src="image/menu-6.png" alt="">
+            <div class="content">
+                <h3>pizza</h3>
+                <div class="price">7 500 F </div>
+            </div>
+        </a>
+
+    </div>
+
+</section>
+
+<!-- menu section ends -->
+
+<!-- order section starts  -->
+
+<section class="order" id="order">
+
+    <div class="heading">
+        <span>Commander maintenant</span>
+        <h3>Livraison rapide a domicile</h3>
+    </div>
+
+    <div class="icons-container">
+
+        <div class="icons">
+            <img src="image/icon-1.png" alt="">
+            <h3>7h00 à 22h30</h3>
+        </div>
+
+        <div class="icons">
+            <img src="image/icon-2.png" alt="">
+            <h3>+237-656-789-850</h3>
+        </div>
+
+        <div class="icons">
+            <img src="image/icon-3.png" alt="">
+            <h3>Douala - Mboapaki</h3>
+        </div>
+
+    </div>
+
+    <form action="">
+
+        <div class="flex">
+            <div class="inputBox">
+                <span>Votre nom</span>
+                <input type="text" placeholder="Nom" name="" id="">
+            </div>
+            <div class="inputBox">
+                <span>Votre numero</span>
+                <input type="number" placeholder="numero de telephone" name="" id="">
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="inputBox">
+                <span>votre commande</span>
+                <input type="text" placeholder="plats commandés" name="" id="">
+            </div>
+            <div class="inputBox">
+                <span>Combien</span>
+                <input type="number" placeholder="nombre de plat" name="" id="">
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="inputBox">
+                <span>Vos details</span>
+                <input type="text" placeholder="votre message" name="" id="">
+            </div>
+            <div class="inputBox">
+                <span>date</span>
+                <input type="datetime-local">
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="inputBox">
+                <textarea placeholder="votre adresse" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="inputBox">
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.788252261566!2d72.82321484621745!3d19.141690214227783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1634657187694!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+
+        <input type="submit" value="confirmer pour commander" class="btn">
+
+    </form>
+
+</section>
+
+<!-- order section ends -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <div class="heading">
+        <span>Notre blogs</span>
+        <h3>Nos dernieres publications</h3>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <h3> <i class="fas fa-calendar"></i> 21st may, 2021 </h3>
+                <img src="image/blog-1.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="tags">
+                    <a href="#"> <i class="fas fa-tag"></i> Plats / </a>
+                    <a href="#"> <i class="fas fa-tag"></i> burger / </a>
+                    <a href="#"> <i class="fas fa-tag"></i> pizza  </a>
+                </div>
+                <h3>specialites occidentales</h3>
+                <p>Venez gouter la specialite européenne et partout d'ailleurs</p>
+                <a href="#" class="btn">lire plus</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <h3> <i class="fas fa-calendar"></i> 21st may, 2021 </h3>
+                <img src="image/delicieuse-assiette-poulet-Photoroom.png-Photoroom.png" alt="">
+            </div>
+            <div class="content">
+                <div class="tags">
+                    <a href="#"> <i class="fas fa-tag"></i> Plat / </a>
+                    <a href="#"> <i class="fas fa-tag"></i> afritude / </a>
+                    <a href="#"> <i class="fas fa-tag"></i> poulet  </a>
+                </div>
+                <h3>les specialites de chez nous</h3>
+                <p> Poulet atieke</p>
+                <a href="#" class="btn">lire plus</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <h3> <i class="fas fa-calendar"></i> 21st may, 2021 </h3>
+                <img src="image/ndole-removebg-preview.png" alt="">
+            </div>
+            <div class="content">
+                <div class="tags">
+                    <a href="#"> <i class="fas fa-tag"></i> plat / </a>
+                    <a href="#"> <i class="fas fa-tag"></i> afritude / </a>
+                    <a href="#"> <i class="fas fa-tag"></i> ndole  </a>
+                </div>
+                <h3>Coupe coeur ndole sentimentale</h3>
+                <p>La specialite d'ici et nul part ailleurs</p>
+                <a href="#" class="btn">lire plus</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="newsletter">
+        <h3>newsletter</h3>
+        <form action="">
+            <input type="email" name="" placeholder="entrez votre email" id="">
+            <input type="submit" value="souscrire">
+        </form>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Notre menu</h3>
+            <a href="#"><i class="fas fa-arrow-right"></i> pizza</a>
+            <a href="#"><i class="fas fa-arrow-right"></i> eru</a>
+            <a href="#"><i class="fas fa-arrow-right"></i> poulet</a>
+            <a href="#"><i class="fas fa-arrow-right"></i> ndole</a>
+            <a href="#"><i class="fas fa-arrow-right"></i> et plus...</a>
+        </div>
+
+        <div class="box">
+            <h3>liens</h3>
+            <a href="#home"> <i class="fas fa-arrow-right"></i> Accueil</a>
+            <a href="#about"> <i class="fas fa-arrow-right"></i> a propos</a>
+            <a href="#popular"> <i class="fas fa-arrow-right"></i> populaires</a>
+            <a href="#menu"> <i class="fas fa-arrow-right"></i> menu</a>
+            <a href="#order"> <i class="fas fa-arrow-right"></i> Commandes</a>
+            <a href="#blogs"> <i class="fas fa-arrow-right"></i> blogs</a>
+        </div>
+
+        <div class="box">
+            <h3>liens extra</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> ma commande</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> mon compte</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> mes favoris</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> termes d'utilisation</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> police</a>
+        </div>
+
+        <div class="box">
+            <h3>Jours ouvert</h3>
+            <p>lundi : 7 h 00 à  10 h 00</p>
+            <p>mardi: 7 h 00 à 10 h 00</p>
+            <p>mercredi : 7 h 00 à 10 h 00</p>
+            <p>vendredi : 7 h 00 à 10 h 00</p>
+            <p>samedi et dimanche nous sommes fermés</p>
+        </div>
+
+    </div>
+
+    <div class="bottom">
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+
+        <div class="credit"> crée par <span>Groupe#™</span> | yoyo </div>
+        
+    </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
